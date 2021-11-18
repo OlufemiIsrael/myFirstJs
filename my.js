@@ -15,6 +15,7 @@ const person = {
         return this.firstName +" "+ this.lastName +" "+ this.age +" "+ this.DOB
     }
 }
-document.getElementById("btn2").onclick= function() {
-   return document.getElementById("demo").innerHTML = person.Details();
+
+    document.getElementById("btn2").onclick= function() {
+    document.getElementById("demo").innerHTML = person.Details();
 }
