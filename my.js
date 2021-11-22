@@ -24,8 +24,8 @@ let button = document.getElementById("btn2")
 let counter = 0
 
 button.addEventListener("click", function() {
-    return counter += 1;
-    alert(counter)
+    counter += 1;
+    return alert(counter)
 })
     }
 }
