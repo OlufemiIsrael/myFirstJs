@@ -9,10 +9,9 @@ document.getElementById("btn").onclick= function() {
 const person = {
     firstName : "Israel",
     lastName : "Olufemi",
-    age : "10",
-    DOB : 12_30_2011,
+    DOB : Date(),
     Details: function() {
-        return this.firstName +" "+ this.lastName +" "+ this.age +" "+ this.DOB
+        return this.firstName +" "+ this.lastName +" "+ this.DOB
     }
 }
 
