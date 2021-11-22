@@ -18,4 +18,17 @@ const person = {
 
     document.getElementById("btn2").onclick= function() {
     document.getElementById("demo").innerHTML = person.Details();
+    if () {
+        
+    }
 }
+
+
+let button = document.getElementById("btn3")
+
+let counter =0
+
+button.addEventListener("click", function() {
+    counter += 1;
+    alert(counter)
+})
