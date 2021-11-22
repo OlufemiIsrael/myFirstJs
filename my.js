@@ -19,11 +19,10 @@ const person = {
     document.getElementById("btn2").onclick= function() {
     document.getElementById("demo").innerHTML = person.Details();
     if ( document.getElementById("demo").innerHTML = person.Details()) {
-        document.getElementById("btn2").onclick= button;
-        
-let button = document.getElementById("btn3")
 
-let counter =0
+let button = document.getElementById("btn2")
+
+let counter = 0
 
 button.addEventListener("click", function() {
     counter += 1;
