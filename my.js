@@ -16,7 +16,7 @@ const person = {
 }
 
     document.getElementById("btn2").onclick= function() {
-    document.getElementById("demo").innerHTML = person.Details();
+    document.getElementById("demo").innerHTML = person.Details()
     if ( document.getElementById("demo").innerHTML = person.Details()) {
 
 let button = document.getElementById("btn2")
@@ -24,8 +24,8 @@ let button = document.getElementById("btn2")
 let counter = 0
 
 button.addEventListener("click", function() {
-    counter += 1;
-    return alert(counter)
+    let x = counter++;
+    alert(x)
 })
     }
 }
